@@ -28,7 +28,7 @@ hostname=api.bilibili.com
 
 
 
-const Group = $prefs.valueForKey('BiliArea_Policy') || '港台番剧';
+const Group = $prefs.valueForKey('BiliArea_Policy') || '哔哩哔哩';
 
 const message = {
     action: "set_policy_state",
